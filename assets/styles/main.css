@@ -1,0 +1,229 @@
+.body {
+    background: #202020;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+
+.container {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+
+.blueText {
+    color: #545AFE;
+}
+
+.cianText {
+    color: #3FE5FC;
+}
+
+.greenText {
+    color: #3FFC96;
+}
+
+
+/* Header */
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.logo {
+    font-weight: 900;
+    font-size: 48px;
+    position: relative;
+}
+
+
+.searchBar {
+    max-width: 400px;
+    width: 100%;
+    right: 0;
+
+    border: none;
+    outline: none;
+
+    height: 50px;
+    border-radius: 30px;
+
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #484848;
+    padding: 0 20px;
+
+    font-family: inherit;
+}
+
+
+.searchBar::focus {
+    border: none;
+    outline: none;
+}
+/* ./Header */
+
+
+/* Global Title */
+.globalTitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    margin-top: 100px;
+
+    width: 750px;
+}
+
+
+.globalTitleText {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.line {
+    background: #7000FF;
+    height: 18px;
+    width: 100%;
+    border-radius: 10px;
+}
+/* ./Global Title */
+
+
+
+
+
+/* Sections */
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+.sections {
+    margin-top: 100px;
+}
+
+
+.sectionsWrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: 100%;
+}
+
+
+.sectionsItem {
+    background: #2F2F2F;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 25px;
+
+    width: 500px;
+    padding: 50px 20px;
+
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.sectionsItem:hover {
+    transform: scale(1.05);
+    /* background: #272727; */
+    background: #353535;
+}
+
+
+.sectionsItemTitle {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.sectionsLine {
+    width: 300px;
+    height: 10px;
+    background: #6604E3;
+    border-radius: 50px;
+}
+
+.sectionsText {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+.title {
+    margin-bottom: 40px;
+}
+/* ./Sections */
+
+
+/* Conditional design */
+.conditionalDesignContainer {
+    background: rgba(0, 56, 255, 0.1);
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 40px 40px;
+    display: inline-block;
+}
+
+
+.conditionalDesign {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+.conditionalDesign + .conditionalDesign {
+    margin-top: 10px;
+}
+/* ./Conditional design */
+
+
+/* Footer */
+.footer {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 180px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 32px;
+    background: #2F2F2F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+/* ./Footer */

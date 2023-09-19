@@ -1,0 +1,142 @@
+.body {
+    background: #202020;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+
+.container {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+.articleParagraph {
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Header */
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.logo {
+    font-weight: 900;
+    font-size: 48px;
+    position: relative;
+}
+
+
+.searchBar {
+    max-width: 400px;
+    width: 100%;
+    right: 0;
+
+    border: none;
+    outline: none;
+
+    height: 50px;
+    border-radius: 30px;
+
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #484848;
+    padding: 0 20px;
+
+    font-family: inherit;
+}
+
+
+.searchBar::focus {
+    border: none;
+    outline: none;
+}
+/* ./Header */
+
+
+/* Global Title */
+.globalTitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    margin-top: 100px;
+
+    width: 400px;
+}
+
+
+.globalTitleText {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.line {
+    background: #7000FF;
+    height: 18px;
+    width: 100%;
+    border-radius: 15px;
+}
+/* ./Global Title */
+
+
+/* Footer */
+.footer {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 180px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 32px;
+    background: #2F2F2F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+}
+/* ./Footer */
+
+
+/* Author */
+.author {
+    margin-top: 100px;
+}
+
+
+.authorHeader {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+/* ./Author */

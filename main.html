@@ -12,8 +12,13 @@
     <div class="container">
         <header class="header">
             <div class="headerWrapper">
-                <a href="main.html" class="logo">Знания.com</a>    
+                <a href="main.html" class="logo">Знания.com</a>   
                 <input placeholder="Поиск темы..." type="text" class="searchBar">
+                <div class="searchResult hide">
+                    <p><a href="#" class="result">Введение</a></p> 
+                    <!-- <p class="notFound">Ничего не найдено...</p> -->
+                </div>
+                
             </div>
         </header>
 
@@ -32,7 +37,7 @@
                     <p class="sectionsText">Краткое описание парадигмы, исторические сведения, авторы и ключевые имена</p>
                 </a>
 
-                <a href="#" class="sectionsItem">
+                <a href="concepts.html" class="sectionsItem">
                     <h1 class="sectionsItemTitle">Понятия</h1>
                     <div class="sectionsLine"></div>
                     <p class="sectionsText">Понятия, которые будут встречаться чаще всего и понимание которых является ключом</p>
@@ -46,19 +51,19 @@
             </div>
 
             <div class="sectionsWrapper">
-                <a href="#" class="sectionsItem">
+                <a href="authors.html" class="sectionsItem">
                     <h1 class="sectionsItemTitle">Авторы</h1>
                     <div class="sectionsLine"></div>
                     <p class="sectionsText">Авторы и участники создания новой парадигмы языков программирования</p>
                 </a>
 
-                <a href="#" class="sectionsItem">
+                <a href="notFound.html" class="sectionsItem">
                     <h1 class="sectionsItemTitle">Сравнение</h1>
                     <div class="sectionsLine"></div>
                     <p class="sectionsText">Сравнение парадигмы с другими, лучшие паттерны и комбинации</p>
                 </a> 
 
-                <a href="#" class="sectionsItem">
+                <a href="notFound.html" class="sectionsItem">
                     <h1 class="sectionsItemTitle">Языки</h1>
                     <div class="sectionsLine"></div>
                     <p class="sectionsText">Описание языков, которые основываются на структурном программировании</p>
@@ -80,5 +85,7 @@
     <footer class="footer">
         Садовников
     </footer>
+
+    <script src="./assets/js/searching.js"></script>
 </body>
 </html>
